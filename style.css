@@ -1,0 +1,83 @@
+body{
+    margin-left:0;
+    display:flex ;
+    height: 140vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+#user-input{
+    width: 300px;
+    padding: 22px;
+    border-radius: 10px;
+}
+button{
+    padding:20px ;
+    margin: 12px;
+   border-radius:5px ;
+   cursor: pointer;
+   
+}
+button:hover{
+    background-color: #0056b3;
+}
+
+.container{
+    border: 5px solid black;
+padding: 30px 40px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgb(155, 206, 197);
+    max-width: 800px;
+}
+h1{
+    margin: 20px;
+    color: #333;
+}
+
+.error p{
+    color:  red;
+    font-weight: bold;
+    /* display: none; */
+
+}
+.sun img{
+    width: 100px;
+    margin: 10px 0;
+    /* display:none ; */
+}
+#temp{
+    font-size: 24px;
+    margin: 0;
+}
+#city{
+    font-size: 20px;
+    color: #555;
+    margin: 5px 0;
+
+}
+
+humid,.wind{
+    margin-top: 10px;
+
+}
+.humid p,.wind p{
+    margin: 3px 0;
+    font-weight: bold;
+}
+
+.img img,
+.air img{
+    width: 40px;
+    margin-top: 10px;
+
+}
+#error{
+    display: none;
+
+}
+#sun{
+    display: none;
+}
